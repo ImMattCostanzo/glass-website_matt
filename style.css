@@ -181,3 +181,8 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media screen and (min-width: 480px) {
+  .dashboard {width: 200px; float: left;}
+  .main {margin-left: 216px;}
+}
